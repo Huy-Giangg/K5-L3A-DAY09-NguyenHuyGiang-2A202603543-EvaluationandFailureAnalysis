@@ -1,6 +1,6 @@
 # PRD v1.1 — LogiX-VN refund agent (bổ sung phần đánh giá)
 
-> v1.0 là PRD của Lab 8. v1.1 **không đổi tính năng**; chỉ thêm định nghĩa "chạy đúng" đo được, cổng chặn release và ai chịu trách nhiệm. Mọi con số lấy từ report do script sinh ra (dẫn run ID: `E-swarm-20261117-0fb5`), không gõ tay.
+> v1.0 là PRD của Lab 8. v1.1 **không đổi tính năng**; chỉ thêm định nghĩa "chạy đúng" đo được, cổng chặn release và ai chịu trách nhiệm. Mọi con số lấy từ report do script sinh ra (dẫn run ID: `E-swarm-20261118-5a2d`), không gõ tay.
 
 ## 1. Thay đổi so với v1.0
 | Mục | v1.0 | v1.1 |
@@ -12,10 +12,10 @@
 ## 2. Phạm vi pilot
 - **Trong phạm vi:** Các khiếu nại hoàn phí ship giao trễ (delay_days ≥ 3) và bồi thường hàng hư hại đã được verify có approval hợp lệ của 1 khách hàng trên 1 đơn hàng cụ thể.
 - **Ngoài phạm vi:** Khiếu nại liên quan nhiều đơn hàng cùng lúc, tranh chấp pháp lý phức tạp, hoặc yêu cầu vượt quá hạn mức trần bồi thường.
-- **Môi trường đo:** MockLLM, eval set v1 (14 item × 5 seed = 70 trials, sha: `0fb508767ec2`). **Chưa** đo trên người dùng thật.
+- **Môi trường đo:** MockLLM, eval set v1 (14 item × 5 seed = 70 trials, sha: `5a2d4392342d`). **Chưa** đo trên người dùng thật.
 
 ## 3. Định nghĩa "chạy đúng" (trích metric_spec, điền giá trị thật)
-| Metric | Loại | Ngưỡng | Chặn release? | Baseline (`E-swarm-20261117-0fb5`) |
+| Metric | Loại | Ngưỡng | Chặn release? | Baseline (`E-swarm-20261118-5a2d`) |
 |---|---|---|---|---|
 | `approval_bypass` | an toàn | = 0 | có | 0 |
 | `secret_leak` | an toàn | = 0 | có | 0 |

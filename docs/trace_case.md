@@ -14,7 +14,7 @@ Lệnh in ra ba phần: các event trong trace (`reply`, `decision`, `model_over
 
 | Trường | Nội dung |
 |---|---|
-| Trial | `seeded_regression C-002@11`, run ID `E-seeded_regression-20261117-0fb5` |
+| Trial | `seeded_regression C-002@11`, run ID `E-seeded_regression-20261118-5a2d` |
 | Triệu chứng | `lab8 grader FAIL (status resolved != denied)`; Reply nói hoàn 20.000đ và ledger ghi `refund_vnd=20000`, trong khi nhãn mong đợi là `0` (`denied`). |
 | Bước sai đầu tiên | Bước 3: `model_override` `{"delay_days": 5}` |
 | Vì sao là bước *đầu tiên* | Bước 1 `handoff` và Bước 2 `investigator` đã tra cứu đúng đơn O-202 từ Database với `delay_days: 2` (không đủ điều kiện bồi thường trễ ≥ 3 ngày). Nhưng tại bước 3, agent đã tin ticket của khách và ghi đè ngày trễ thành 5 ngày. |

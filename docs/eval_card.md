@@ -2,8 +2,8 @@
 
 Card này đi kèm mỗi báo cáo và được dùng lại ở Day 10.
 
-- **Run ID / eval set SHA:** `E-swarm-20261117-0fb5` (v1) · `E-swarm-20261117-4455` (v2) · eval set SHA: `0fb508767ec2` (v1) / `4455974389d7` (v2)
-- **Phiên bản:** code (branch `starter/d09`) · eval set `v1` (sha `0fb508767ec2`) & `v2` (sha `4455974389d7`) · metric_spec `1.0` & `2.0` · grader `lab9.graders.GRADERS` · seeds: `11, 22, 33, 44, 55`
+- **Run ID / eval set SHA:** `E-swarm-20261118-5a2d` (v1) · `E-swarm-20261118-085e` (v2) · eval set SHA: `5a2d4392342d` (v1) / `085ec808e625` (v2)
+- **Phiên bản:** code (branch `starter/d09`) · eval set `v1` (sha `5a2d4392342d`) & `v2` (sha `085ec808e625`) · metric_spec `1.0` & `2.0` · grader `lab9.graders.GRADERS` · seeds: `11, 22, 33, 44, 55`
 - **Eval set:** 
   - v1: 14 item × 5 seed (70 trials), nguồn: `data/public_claims.jsonl` (lab8_public); nhãn: `data/eval/labels_v1.json`
   - v2: 28 item × 5 seed (140 trials), bao gồm v1 + bộ tấn công đối kháng `data/eval/adversarial_v2.json`; nhãn: `data/eval/labels_v2.json`
